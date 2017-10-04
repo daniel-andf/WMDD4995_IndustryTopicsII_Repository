@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Portfolio</title>
-    <link>http://daniel-fonseca.com/</link>
-    <description>Recent content on My Portfolio</description>
+    <title>Posts on My Portfolio</title>
+    <link>http://daniel-fonseca.com/posts/</link>
+    <description>Recent content in Posts on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Oct 2017 16:36:28 -0700</lastBuildDate>
     
-	<atom:link href="http://daniel-fonseca.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://daniel-fonseca.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

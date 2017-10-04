@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        <title>Ruby &middot; My Portfolio</title>
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
+        <link rel="stylesheet" href="http://daniel-fonseca.com//libraries/normalize.3.0.1.css" />
+        <link rel="stylesheet" href="http://daniel-fonseca.com//css/liquorice.css" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-144-precomposed.png" sizes="144x144" />
+        <link rel="alternate" href="" type="application/rss+xml" title="My Portfolio" />
+    </head>
+    <body class="li-body">
+
+<header class="li-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-brand li-left">
+                <a href="http://daniel-fonseca.com/"><img src="/img/logo.png" style="width:300px;height:128px;"></a></div>
+                <div class="li-menu li-right">
+                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
+                    <ul id="menu2" class="li-menu-items">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <ul id="menu" class="li-menu-items li-menu-mobile">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <article class="li-article">
+                    <header class="li-article-header">
+                        <h1 class="li-article-title">Ruby</h1>
+                        <span class="li-article-taxonomies">
+                            
+
+                            
+                        </span>
+                        
+                        <time class="li-article-date">Tuesday, October 3, 2017</time>
+                    </header>
+                    <section>
+                        <h2><strong>Introduction </strong></h2>
+
+<p>Ruby on Rails is being used for some of most of revelant companies in the world, such as Git Hub, AirBnb, Groupon, Hulu, etc.
+In addition, there is a hign demand for Ruby on Rails on the labour market for web back-ending development.
+However, there are some languages in the market where you must take into account, before considering to use Ruby in your project.</p>
+
+<p>Here are some Advantages and Disadvantages of developing on Ruby on Rails :</p>
+
+<h3><strong>Advantages</strong></h3>
+
+<ul>
+<li><p>Uses MVC(model-view-controller) philosophy, in order to separate the application in models, which is easier for developers to add new features and maintainace.</p></li>
+
+<li><p>You don&rsquo;t need to code all your applications from scratch. You can use RubyGems to install some feature in your website that was already developed before.</p></li>
+
+<li><p>Language and Gems are well documented online.</p></li>
+</ul>
+
+
+<figure >
+    
+        <img src="/img/img23.png" />
+    
+    
+    <figcaption>
+        <h4>MVC-Ruby</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3> <strong> Disadvantages </strong></h3>
+
+<ul>
+<li><p>Lower performance, mainly, because of use of great amount of gems.</p></li>
+
+<li><p>Less popular than Java and PHP, therefore, there are less developers than these languages.</p></li>
+</ul>
+
+<h2> <strong>Basic Concepts </strong></h2>
+
+<p>This post will show how you prepare your machine to start developing using Ruby on Rails.</p>
+
+<p>Before we start to prepare a development enviroment for Ruby on Rails, there are a few concepts that we should know :</p>
+
+<ul>
+<li><p><strong> Ruby </strong>- Created by Yukihiro Matsumoto, Ruby is the programming language used to code. Ruby is a language used for general purposes, not only for web development.</p></li>
+
+<li><p><strong> Ruby on Rails </strong> -  is a web application development framework written in the Ruby language. It is designed to make programming web applications easier by making assumptions
+about what every developer needs to get started.(add citation)</p></li>
+
+<li><p><strong> Gem (RubyGems) </strong>- is the package manager for the Ruby programing language that provides lots of libraries to your Ruby project. Before you start, it is recommended to check the RubyGems website,
+to check if the features you want to use on your project is already available.</p></li>
+
+<li><p><strong> IRB (Interactive Ruby Shell) </strong> - is the command line interface with Ruby, which allows to interact with code, when it is running.</p></li>
+</ul>
+
+<h2> <strong> How to install Ruby on Windows and Mac </strong> </h2>
+
+<p>There are a few differences on installing Ruby on Windows and Mac PCs. MacOs after version 10.12 already have Ruby installed, so you will just need to check the version of Ruby on this machine.</p>
+
+
+<figure >
+    
+        <img src="/img/img17.png" />
+    
+    
+    <figcaption>
+        <h4>Ruby on Mac</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3> <strong> Step 1 - Install RubyInstaller (Windows only) </strong> </h3>
+
+<p>If you don&rsquo;t have the Ruby installed on your machine, you should download the RubyInstaller from the site <a href="https://rubyinstaller.org/">https://rubyinstaller.org/</a> .
+This also will get the RubyGems along to this package, which will allow to install the web-framework Rails.</p>
+
+
+<figure >
+    
+        <img src="/img/img24.png" />
+    
+    
+    <figcaption>
+        <h4>RubyInstaller</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>After installation, check on the CMD if Ruby is installed by using the command : ruby -v</p>
+
+
+<figure >
+    
+        <img src="/img/img1.png" />
+    
+    
+    <figcaption>
+        <h4>Ruby installed on Windows</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>*Some Ruby Installer will include the MSYS2, which a Unix-like environment, a command-line interface for those who are used to Unix Shell Script commands.
+The installation of this component is optional.</p>
+
+<h3> <strong> Step 2 - Install Rails (Windows/Mac) </strong> </h3>
+
+<p>Go to the CMD(for Windows) or Terminal(for Mac) and use the command : gem install rails</p>
+
+
+<figure >
+    
+        <img src="/img/img2.png" />
+    
+    
+    <figcaption>
+        <h4>Rails installed on Windows</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/img/img18.png" />
+    
+    
+    <figcaption>
+        <h4>Rails installed on Mac</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>After installation, check on the CMD(for Windows) or Terminal(for Mac) if Rails is installed by using the command : rails -v</p>
+
+
+<figure >
+    
+        <img src="/img/img4.png" />
+    
+    
+    <figcaption>
+        <h4>Rails installed on Windows</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/img/img19.png" />
+    
+    
+    <figcaption>
+        <h4>Rails installed on Mac</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>*Puma WebServer is built-in with the installation of Rails.</p>
+
+<h3> <strong> Step 3 - Install MySQL and MySQL gem (Windows/Mac) </strong> </h3>
+
+<p>You will need to configure MySQL on your environment, if you to work with a database. Go to <a href="https://dev.mysql.com/downloads/mysql/">https://dev.mysql.com/downloads/mysql/</a> and configure MySQL server.</p>
+
+
+<figure >
+    
+        <img src="/img/img5.png" />
+    
+    
+    <figcaption>
+        <h4>MySQL website</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>After installation, go to the CMD(for Windows) or Terminal(for Mac) and use the command : gem install mysql2</p>
+
+
+<figure >
+    
+        <img src="/img/img6.png" />
+    
+    
+    <figcaption>
+        <h4>Gem MySQL installed</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3> <strong> Step 4 - Choose a text editor (Windows/Mac) </strong> </h3>
+
+<p>You can use any text editor to code with Ruby. However, I suggest to use one colored text editor, in order to make easy to code and identify the elements of Ruby programming language.
+Here a few suggestion of text editors:</p>
+
+<p>Atom
+<a href="https://atom.io/">https://atom.io/</a></p>
+
+<p>Sublime
+<a href="https://www.sublimetext.com/">https://www.sublimetext.com/</a></p>
+
+<p>Notepad++
+<a href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a></p>
+
+<h3> <strong> Step 5 - Create a new project (Windows/Mac) </strong> </h3>
+
+<p>On the CMD(for Windows) or Terminal(for Mac), choose the folder you want to create a project. After that, use the following command : rails new <project_name> Ex: rails new helloworld</p>
+
+<p>Now you have a folder with your project created.</p>
+
+
+<figure >
+    
+        <img src="/img/img7.png" />
+    
+    
+    <figcaption>
+        <h4>Create Ruby Project</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3> <strong> Step 6 - Create the database (Windows/Mac) </strong> </h3>
+
+<p>With the installation of MySQL, there is a command-line called &ldquo;MySQL XX Command Line Client&rdquo; that we can use to connect to the database server. Connect to MySQL and create the database
+by using the following command :
+CREATE DATABASE <database_name>; Ex.: CREATE DATABASE helloworld_database</p>
+
+<p>Then, grant access to your rails application by using the following command :</p>
+
+<p>GRANT ALL PRIVILEGES ON <project_name>.* TO &lsquo;rails_user&rsquo;@&lsquo;localhost&rsquo; IDENTIFIED BY &lsquo;<password>&rsquo;;</p>
+
+
+<figure >
+    
+        <img src="/img/img9.png" />
+    
+    
+    <figcaption>
+        <h4>Create DATABASE MySQL</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Finally, enter on your text-editor and configure the file database.yml in the config folder. Include in the file the information of database, user and password passed to MySQL.</p>
+
+
+<figure >
+    
+        <img src="/img/img11.png" />
+    
+    
+    <figcaption>
+        <h4>Project Folder</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/img/img12.png" />
+    
+    
+    <figcaption>
+        <h4>database.yml</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>To test if your project is connecting to the database go to the CMD(for Windows) or Terminal(for Mac), and use the following command : rails db:schema:dump.</p>
+
+<p>This will create a new file called schema.rb in the db folder.</p>
+
+
+<figure >
+    
+        <img src="/img/img13.png" />
+    
+    
+    <figcaption>
+        <h4>Connect to database by your Rails Web Application</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/img/img14.png" />
+    
+    
+    <figcaption>
+        <h4>schema.rb created</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h3> <strong> Step 7 - Launch the project </strong> </h3>
+
+<p>On the CMD(for Windows) or Terminal(for Mac), go to your project folder and use the command : rails server</p>
+
+
+<figure >
+    
+        <img src="/img/img15.png" />
+    
+    
+    <figcaption>
+        <h4>Launch Ruby on Rails Web Application on Windows</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/img/img21.png" />
+    
+    
+    <figcaption>
+        <h4>Launch Ruby on Rails Web Application on Mac</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Go to the browser and check if the website is online. On my machine, the address is <a href="http://localhost:3000">http://localhost:3000</a></p>
+
+
+<figure >
+    
+        <img src="/img/img16.png" />
+    
+    
+    <figcaption>
+        <h4>Ruby on Rails Website on Windows</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<figure >
+    
+        <img src="/img/img22.png" />
+    
+    
+    <figcaption>
+        <h4>Ruby on Rails Website on Mac</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h2> <strong> Congratulations!!! You launched your first Ruby Application!!!  </strong> </h2>
+
+<p>References :</p>
+
+<p><a href="https://prograils.com/posts/top-10-famous-sites-built-with-ruby-on-rails">https://prograils.com/posts/top-10-famous-sites-built-with-ruby-on-rails</a></p>
+
+<p><a href="https://www.netguru.co/blog/pros-cons-ruby-on-rails">https://www.netguru.co/blog/pros-cons-ruby-on-rails</a></p>
+
+<p><a href="https://www.ruby-lang.org/en/about/">https://www.ruby-lang.org/en/about/</a></p>
+
+<p><a href="http://rubyonrails.org/">http://rubyonrails.org/</a></p>
+
+<p><a href="https://rubygems.org/">https://rubygems.org/</a></p>
+
+<p><a href="https://www.lynda.com/Ruby-Rails-tutorials/Installing-Running-Ruby-Rails-5-Windows/500550-2.html">https://www.lynda.com/Ruby-Rails-tutorials/Installing-Running-Ruby-Rails-5-Windows/500550-2.html</a></p>
+
+                    </section>
+                </article>
+            </div>
+        </div>
+
+        <div class="row li-author">
+    <div class="sixteen columns">
+        Written by <strong>Daniel Fonseca</strong>
+    </div>
+</div>
+
+
+        <div class="row li-pagination">
+            <div class="eight columns">
+                <div class="li-pagination-previous">
+                    
+                        &nbsp;
+                    
+                </div>
+            </div>
+            <div class="eight columns">
+                <div class="li-pagination-next">
+                    
+                        &nbsp;
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    &copy; 2017. All rights reserved. 
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script type="text/javascript">
+    <!--
+    function toggle(id) {
+        var e = document.getElementById(id);
+        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
+    }
+    
+    </script>
+    
+    </body>
+</html>
+
