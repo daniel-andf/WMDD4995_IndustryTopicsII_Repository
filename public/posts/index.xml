@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2017 16:36:28 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 14 Oct 2017 12:28:35 -0700</lastBuildDate>
     
 	<atom:link href="http://daniel-fonseca.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to network on IT industry after you graduate</title>
+      <link>http://daniel-fonseca.com/posts/networking/</link>
+      <pubDate>Sat, 14 Oct 2017 12:28:35 -0700</pubDate>
+      
+      <guid>http://daniel-fonseca.com/posts/networking/</guid>
+      <description>Introduction  Nowadays, it is getting hard to find a job in the IT Industry. There are a bunch of job postings, which requires a lot of experience on a few technologies. This can scare people, who recently graduated from University, College and other Tech Courses. Moreover, just having the tech skills it is not enough to be employed. The companies are requiring people to have strong soft skills, willing to work in teams, learn about the company&amp;rsquo;s business, to be a good presenter, etc.</description>
+    </item>
     
     <item>
       <title>Ruby on Rails Installation</title>
