@@ -6,10 +6,20 @@
     <description>Recent content on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Oct 2017 12:28:35 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Nov 2017 16:06:19 -0800</lastBuildDate>
     
 	<atom:link href="http://daniel-fonseca.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My experience on learning Web and Mobile languages</title>
+      <link>http://daniel-fonseca.com/posts/code_experience/</link>
+      <pubDate>Mon, 06 Nov 2017 16:06:19 -0800</pubDate>
+      
+      <guid>http://daniel-fonseca.com/posts/code_experience/</guid>
+      <description>Introduction This posting is to show my experience on learning Web and Mobile languages nowadays. Even though I have a Bachelor of Computer Science, technology changes so fast that is extremely hard to keep updated if you are not working in the industry. However, it was faster to learn with the background I have than if I was totally new to software development.
+I graduated in 2008 in Brazil in a public University, similar to UBC, after 4 years in a Computer Science program.</description>
+    </item>
     
     <item>
       <title>How to network on IT industry after you graduate</title>
