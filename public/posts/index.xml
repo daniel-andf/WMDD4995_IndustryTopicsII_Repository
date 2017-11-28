@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Nov 2017 16:06:19 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Nov 2017 15:13:01 -0800</lastBuildDate>
     
 	<atom:link href="http://daniel-fonseca.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to use Project Management concepts on a Web development enviroment</title>
+      <link>http://daniel-fonseca.com/posts/pmweb/</link>
+      <pubDate>Sun, 26 Nov 2017 15:13:01 -0800</pubDate>
+      
+      <guid>http://daniel-fonseca.com/posts/pmweb/</guid>
+      <description>Introduction Nowadays, is really popular to use websites to promote your business. Any company who is starting your business wants to have your website, so the customers will have a glimpse of the experience or knowlegde of the place, and also this will make their decision easier if they want to go or hire that service. As a result of this, there is a high demand of websites to the web agencies, where they need to develop something pleasant, with great UI experience and as fast as possible.</description>
+    </item>
     
     <item>
       <title>My experience on learning Web and Mobile languages</title>
